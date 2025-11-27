@@ -1,0 +1,31 @@
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ID selector */
+#main-title {
+    color: #1a73e8;
+}
+
+/* Class selector */
+.info {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 15px;
+}
+
+/* Attribute selector */
+p[data-role="special"] {
+    color: hsl(200, 80%, 40%);
+}
+
+/* Pseudo-class */
+p:hover {
+    background-color: #ffe0b3;
+}
+
+/* Pseudo-element */
+p::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+}
